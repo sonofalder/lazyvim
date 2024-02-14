@@ -1,12 +1,17 @@
 return {
-    -- add nordic
-    { "ribru17/bamboo.nvim" },
+    -- Install theme
+    {
+        -- "ribru17/bamboo.nvim",
+        -- "oxfist/night-owl.nvim",
+        -- "rebelot/kanagawa.nvim",
+        "olimorris/onedarkpro.nvim",
+    },
 
-    -- Configure LazyVim to load nordic
+    -- Apply theme colorscheme
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "bamboo",
+            colorscheme = "onedark",
         },
     },
 }
